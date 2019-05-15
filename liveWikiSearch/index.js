@@ -25,7 +25,7 @@ function ajaxCall() {
 
 function randomFunction() {
     $('#update').empty();
-    $('#serach').empty();
+    $('#search').val('');
     $('iframe').attr('src', 'https://en.wikipedia.org/wiki/Special:Random');
 }
 
